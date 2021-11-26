@@ -63,4 +63,9 @@ public class User implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
+
+	public Set<Role> getRoles() {
+		return roles;
+	}
+	
 }
